@@ -32,7 +32,7 @@ const ZincOre = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/zo1.jpg",
+    image: "../../../images/zo1.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",

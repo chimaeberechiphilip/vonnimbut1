@@ -32,7 +32,7 @@ const LeadOre = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/lead.jpg",
+    image: "../../../images/lead.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",

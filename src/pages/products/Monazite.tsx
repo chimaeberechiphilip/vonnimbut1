@@ -32,7 +32,7 @@ const Monazite = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/monazite.jpg",
+    image: "../../../images/monazite.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",

@@ -12,28 +12,28 @@ const About = () => {
       role: "Strategic Leadership & International Relations",
       experience:
         "He is the CEO and Managing Director of Vonnimbut Enterprises. He is a trader and procurement officer with over 18 years of experience in procurement, logistics, and trading",
-      picture: "../src/images/vongjen.jpg",
+      picture: "../../../images/vongjen.jpg",
     },
     {
       realname: "Paul",
       name: "Chief Operations Officer",
       role: "Mining Operations & Quality Control",
       experience: "20+ years in mineral processing",
-      picture: "../src/images/paul.jpg",
+      picture: "../../images/paul.jpg",
     },
     {
       realname: "Philip Eberechi Chima",
       name: "Head of Logistics",
       role: "Export & Shipping Operations",
       experience: "15+ years in international trade",
-      picture: "../src/images/philip.jpg",
+      picture: "../../images/philip.jpg",
     },
     {
       realname: "Vincent Ohiri Uche",
       name: "Chief Financial Officer",
       role: "Financial Management & Investor Relations",
       experience: "18+ years in corporate finance",
-      picture: "../src/images/vincent.jpg",
+      picture: "../../images/vincent.jpg",
     },
   ];
 

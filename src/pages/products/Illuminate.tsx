@@ -32,7 +32,7 @@ const Illuminate = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/illuminate.jpg",
+    image: "../../../images/illuminate.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",

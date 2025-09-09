@@ -32,7 +32,7 @@ const IronOre = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/ironore.jpg",
+    image: "../../../images/ironore.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",

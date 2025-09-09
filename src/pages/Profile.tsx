@@ -44,7 +44,7 @@ const Profile = () => {
           </p>
         </>
       ),
-      picture: "../src/images/vongjen.jpg",
+      picture: "../../images/vongjen.jpg",
     },
     {
       realname: "Paul",
@@ -82,7 +82,7 @@ const Profile = () => {
           </p>
         </>
       ),
-      picture: "../src/images/paul.jpg",
+      picture: "../../images/paul.jpg",
     },
     {
       realname: "Philip Eberechi Chima",
@@ -91,7 +91,7 @@ const Profile = () => {
       shortexperience:
         "He is the CEO and Managing Director of Vonnimbut Enterprises. He isa trader and procurement officer with over 18 years of experience inprocurement, logistics, and trading.",
       experience: "15+ years in international trade",
-      picture: "../src/images/philip.jpg",
+      picture: "../../images/philip.jpg",
     },
     {
       realname: "Vincent Ohiri Uche",
@@ -100,7 +100,7 @@ const Profile = () => {
       shortexperience:
         "He is the CEO and Managing Director of Vonnimbut Enterprises. He isa trader and procurement officer with over 18 years of experience inprocurement, logistics, and trading.",
       experience: "18+ years in corporate finance",
-      picture: "../src/images/vincent.jpg",
+      picture: "../../images/vincent.jpg",
     },
   ];
 
