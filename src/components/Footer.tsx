@@ -12,7 +12,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-rust-orange">
-                <span className="text-sm font-bold text-white">V&S</span>
+                <span className="text-sm font-bold text-white">
+                  <img src="../../../public/images/vimbut.jpg" />
+                </span>
               </div>
               <span className="text-lg font-bold">Vonnimbut & Sons</span>
             </div>
