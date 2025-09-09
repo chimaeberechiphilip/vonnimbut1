@@ -43,7 +43,7 @@ const Navigation = () => {
         <Link to="/" className="flex items-center space-x-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-md bg-steel-blue">
             <span className="text-sm font-bold text-white">
-              <img src="../src/images/vimbut.jpg" alt="V&S" />
+              <img src="../../public/images/vimbut.jpg" alt="V&S" />
             </span>
           </div>
           <span className="text-xl font-bold text-night-blue">

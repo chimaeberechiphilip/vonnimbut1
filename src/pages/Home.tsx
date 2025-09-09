@@ -59,7 +59,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-night-blue via-steel-blue to-deep-blue overflow-hidden">
         <div className="absolute inset-0 bg-black/40"></div>
-        <div className="absolute inset-0 bg-[url('../src/images/monazite.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('../../public/images/monazite.jpg')] bg-cover bg-center mix-blend-overlay"></div>
 
         <div className="container relative z-10 text-center text-white">
           <div className="max-w-4xl mx-auto space-y-8">

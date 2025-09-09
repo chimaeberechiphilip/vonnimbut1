@@ -32,7 +32,7 @@ const Columbite = () => {
       "Taraba State",
       "Plateau  State",
     ],
-    image: "../src/images/columbite.jpg",
+    image: "../../public/images/columbite.jpg",
     industries: [
       "Steel & Galvanizing",
       "Automotive",
