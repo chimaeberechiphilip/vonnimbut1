@@ -1,0 +1,124 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color palette for Vonnimbut & Sons Enterprise */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 210 25% 35%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 193 35% 27%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 20 65% 50%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    /* Custom colors for mining industry */
+    --steel-blue: 210 25% 45%;
+    --deep-blue: 193 35% 27%;
+    --graphite-gray: 0 0% 48%;
+    --rust-orange: 20 65% 50%;
+    --copper-brown: 25 65% 45%;
+    --gold: 45 45% 60%;
+    --bright-green: 140 60% 60%;
+    --iron-silver: 0 0% 90%;
+    --night-blue: 193 50% 15%;
+  }
+
+  .dark {
+    --background: 193 50% 15%;
+    --foreground: 0 0% 95%;
+    --card: 193 50% 15%;
+    --card-foreground: 0 0% 95%;
+    --popover: 193 50% 15%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 0% 95%;
+    --primary-foreground: 193 50% 15%;
+    --secondary: 210 25% 25%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 210 25% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 20 65% 50%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 210 25% 25%;
+    --input: 210 25% 25%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .text-steel-blue { color: hsl(var(--steel-blue)); }
+  .bg-steel-blue { background-color: hsl(var(--steel-blue)); }
+  .text-deep-blue { color: hsl(var(--deep-blue)); }
+  .bg-deep-blue { background-color: hsl(var(--deep-blue)); }
+  .text-rust-orange { color: hsl(var(--rust-orange)); }
+  .bg-rust-orange { background-color: hsl(var(--rust-orange)); }
+  .text-copper-brown { color: hsl(var(--copper-brown)); }
+  .bg-copper-brown { background-color: hsl(var(--copper-brown)); }
+  .text-gold { color: hsl(var(--gold)); }
+  .bg-gold { background-color: hsl(var(--gold)); }
+  .text-bright-green { color: hsl(var(--bright-green)); }
+  .bg-bright-green { background-color: hsl(var(--bright-green)); }
+  .bg-iron-silver { background-color: hsl(var(--iron-silver)); }
+  .bg-night-blue { background-color: hsl(var(--night-blue)); }
+  .text-night-blue { color: hsl(var(--night-blue)); }
+}
+
+/* Hero section animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-400 {
+  animation-delay: 0.4s;
+}
